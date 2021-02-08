@@ -142,13 +142,13 @@ video apps get messed up when an app is requesting root in the background.
 - [General] Support Android Q Beta 2
 - [MagiskInit] New sbin overlay setup process for better compatibility
 - [MagiskInit] Allow long pressing volume up to boot to recovery in recovery mode
-- [MagicMount] Use proper system\_root mirror
+- [MagicMount] Use proper system\no root mirror
 - [MagicMount] Use self created device nodes for mirrors
 - [MagicMount] Do not allow adding new files/folders in partition root folder (e.g. /system or /vendor)
 
 ### v19.0
 
-- [General] Remove usage of magisk.img
+- [General] Remove usage of magisk.imgapp.LoadPlugin("DroidScriptUIKit")
 - [General] Add 64 bit magisk binary for native 64 bit support
 - [General] Support A only system-as-root devices that released with Android 9.0
 - [General] Support non EXT4 system and vendor partitions
